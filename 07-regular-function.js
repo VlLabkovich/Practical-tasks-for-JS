@@ -8,3 +8,10 @@
  *
  * 4. Вызовите функцию
  */
+
+ function myFirstName (){
+    const myName = 'Vlad';
+     console.log(myName);
+ };
+ myFirstName(); // Vlad
+ 
