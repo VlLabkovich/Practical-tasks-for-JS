@@ -12,3 +12,14 @@
  *
  * 4. Вызовите функцию
  */
+
+/** 
+ *  Возвращает разницу двух чисел
+ *  @param {number} a
+ *  @param {number} b
+ *  @returns {number} 'Разница чисел'
+*/
+function parametrs(a, b) {
+    return a - b
+};
+parametrs(10, 4); // 6
