@@ -12,3 +12,9 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+let str3 = 'family';
+let str4 = str3.toUpperCase();
+console.log(str3 instanceof String); // false
+console.log(typeof str3); // string
+console.log(str4); // FAMILY
