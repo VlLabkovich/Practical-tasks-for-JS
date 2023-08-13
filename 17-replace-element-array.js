@@ -8,3 +8,8 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+let array2 = [1, 'Vlad', true];
+console.log(array2); // [1, 'Vlad', true]
+array2[1]='Hello';
+console.log(array2); // [1, 'Hello', true]
