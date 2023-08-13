@@ -6,3 +6,7 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+let array1 = ['hello', 7, true];
+console.log(array1[0]); // hello
+console.log(array1.length); // 3
