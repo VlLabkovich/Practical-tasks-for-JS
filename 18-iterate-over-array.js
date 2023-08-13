@@ -5,3 +5,16 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const updateMyArray = myArray.forEach(el => console.log(el));
+console.log(updateMyArray); // 1
+                            // 2
+                            // 3
+                            // 4
+                            // 5
+                            // 6
+                            // 7
+                            // 8
+                            // 9
+                            // 10
