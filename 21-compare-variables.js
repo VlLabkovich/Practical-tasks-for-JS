@@ -5,3 +5,17 @@
  *
  * 2. Преобразуйте обе переменные в числа перед сравнением.
  */
+
+const myVariable1 = 10;
+const myVariable2 = '5';
+
+console.log(myVariable1 <= Number(myVariable2)); // false
+// or //
+console.log(myVariable1 <= parseInt(myVariable2)); //false
+
+const myVariable3 = '20';
+const myVariable4 = 100;
+
+console.log(parseInt(myVariable3) <= myVariable4); // true
+// or //
+console.log(Number(myVariable3) <= myVariable4); // true
