@@ -4,3 +4,6 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const showCurrentTime = new Date(2023,8,14,18,13);
+console.log(showCurrentTime.getTime()); // 1694704380000
