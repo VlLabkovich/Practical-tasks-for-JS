@@ -7,3 +7,12 @@
  *
  * 3. Проверьте ассоциативность самостоятельно
  */
+
+const myNumber1 = 10;
+const myNumber2 = 3;
+
+console.log(myNumber1 % myNumber2); // 1
+
+// приоритет - 13, ассоциотивность - left-to-right
+
+console.log(100 % 24 % 5 % 3); // 1
