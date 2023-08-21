@@ -6,5 +6,5 @@
 console.log(3 || (true && null) || false); // 3
 
 1. (true && null); // null
-2. (null || false) // false
-3. (3 || false) // 3
+2. (null || false); // false
+3. (3 || false); // 3
