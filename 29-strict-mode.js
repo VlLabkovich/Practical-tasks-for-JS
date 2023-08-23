@@ -9,8 +9,17 @@
 'use strict'
 
 function myFunction() {
+  var a = 2 // добавлено объявление переменной внутри функции, что в свою очередь исправляет ошибку
+  return a
+}
+
+console.log(myFunction()) // 2
+
+
+// При отключении сторого режима ошибка пропадёт
+function myFunction() {
   a = 2
   return a
 }
 
-console.log(myFunction())
+console.log(myFunction()) // 2
