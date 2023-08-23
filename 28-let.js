@@ -3,20 +3,20 @@
  * Измените код так, чтобы ошибка исчезла
  */
 
-const myFavoriteAnimal = 'Monkey'
+const myFavoriteAnimal = 'Monkey';
 
-console.log(myFavoriteAnimal)
+console.log(myFavoriteAnimal);
 // 'Monkey'
 
-const myFavoriteAnimal = 'Cat'
+const myFavoriteAnimal = 'Cat';
 
-console.log(myFavoriteAnimal)
+console.log(myFavoriteAnimal);
 // 'Cat'
 
-let myFavoriteAnimal = 'Monkey'
+let myFavoriteAnimal = 'Monkey';
 
-console.log(myFavoriteAnimal) // 'Monkey'
+console.log(myFavoriteAnimal); // 'Monkey'
 
-myFavoriteAnimal = 'Cat'
+myFavoriteAnimal = 'Cat';
 
-console.log(myFavoriteAnimal) // 'Cat'
+console.log(myFavoriteAnimal); // 'Cat'
