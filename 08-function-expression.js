@@ -12,7 +12,7 @@
  */
 
 const funct = function(name) {
-    return 'Привет, ' + name   
+    return 'Привет, ' + name;   
 };
 console.log(funct('Vlad')); // Привет, Vlad 
 console.log(funct('Ksu')); // Привет, Ksu
