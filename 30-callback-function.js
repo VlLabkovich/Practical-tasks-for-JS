@@ -8,6 +8,8 @@
 
 setTimeout(function myFn() {
   console.log('Привет из функции myFn');
-}, 2000);
+}, 2000); // через 2000 мс выведется в консоли 'Привет из функции myFn' 
 
-myFn();
+myFn(); // в этой строке программа выдаст ошибку 'myFn is not defined'
+
+setTimeout(() => {console.log('Привет из функции myFn')}, 2000);
