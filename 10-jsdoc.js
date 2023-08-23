@@ -20,6 +20,6 @@
  *  @returns {number} 'Разница чисел'
 */
 function parametrs(a, b) {
-    return a - b
+    return a - b;
 };
 parametrs(10, 4); // 6
