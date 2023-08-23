@@ -13,7 +13,7 @@
 
 // явный способ
 const helloWorld = () => {
-    return "Привет, мир!"
+    return "Привет, мир!";
 };
 helloWorld(); // 'Привет, мир!'
 
