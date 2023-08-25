@@ -38,5 +38,15 @@ setTimeout(() => {console.log('Сообщение номер 3');}, 6000);
 setTimeout(() => {console.log('Сообщение номер 4');}, 8000);
 setTimeout(() => {console.log('Сообщение номер 5');}, 10000);
 
+/*Option Three*/
+
+let i = 1
+
+const messIntId = setInterval(() => {
+    console.log('Сообщение номер ' + i)
+    i = i + 1;
+}, 2000);
+
+setTimeout(() => clearInterval(messIntId), 10000);
 
 
