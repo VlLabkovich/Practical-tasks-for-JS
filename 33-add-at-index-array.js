@@ -8,3 +8,8 @@
  */
 
 const myArray = [1, 2];
+
+myArray[10] = "Hello";
+console.log(myArray); // [1, 2, пусто × 8, 'abc']
+
+console.log(myArray.length) // 11, так как индекс начинается от 0, то длина получается 11 
